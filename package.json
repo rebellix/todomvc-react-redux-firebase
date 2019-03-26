@@ -1,11 +1,17 @@
 {
-  "name": "mern",
+  "name": "todomvc-react-redux-firebase",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "firebase": "^5.8.5",
+    "prop-types": "^15.7.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.5"
+    "react-redux": "^6.0.1",
+    "react-scripts": "2.1.5",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +27,19 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebellix/todomvc-react-redux-firebase.git"
+  },
+  "author": "rebellix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rebellix/todomvc-react-redux-firebase/issues"
+  },
+  "homepage": "https://github.com/rebellix/todomvc-react-redux-firebase#readme",
+  "devDependencies": {
+    "lodash": "^4.17.11",
+    "redux-devtools-extension": "^2.13.8"
+  }
 }
